@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Efe Costu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+					<header id="header">
+						<h1>Efe Costu</h1>
+						<p>IB Student &nbsp;&bull;&nbsp; Hacktivist &nbsp;&bull;&nbsp; Never asked for this</p>
+						<nav>
+							<ul>
+									<li><a href="https://twitter.com/CostuEfe" class="icon fa-twitter" onmousedown="twt.play()"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/efe.costu.1" class="icon fa-facebook" onmousedown="face.play()"><span class="label">Facebook</span></a></li>
+								<li><a href="https://bitbucket.org/efe_costu/" class="icon fa-bitbucket"><span class="label">Dribbble</span></a></li>
+								<li><a href="https://github.com/efecostu" class="icon fa-github"><span class="label">Github</span></a></li>
+
+							</ul>
+						</nav>
+					</header>
+				<Footer>
+					<footer id="footer">
+
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			var twt = new Audio();
+			twt.src = "twitter.mp3";
+
+			var face = new Audio();
+			face.src = "facebook.mp3";
+
+		</script>
+	</body>
+</html>
